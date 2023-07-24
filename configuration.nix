@@ -133,6 +133,8 @@
     gh
     telegram-desktop
     drawio
+    toybox
+    wayland-utils
   ];
   environment.shells = with pkgs; [ zsh ];
 
