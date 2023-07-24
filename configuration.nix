@@ -56,6 +56,8 @@
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
   services.xserver.displayManager.defaultSession = "plasmawayland";
+  services.fwupd.enable = true;
+  
 
   # Configure keymap in X11
   services.xserver = {
