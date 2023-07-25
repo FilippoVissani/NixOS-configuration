@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.0.0...1.1.0) (2023-07-25)
+
+
+### Features
+
+* add dmidecode, glava and gimp ([97b1c7b](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/97b1c7b47f0fbdae8e6c7914bf76beda1116714e))
+
 ## 1.0.0 (2023-07-24)
 
 
