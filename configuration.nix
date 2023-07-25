@@ -135,6 +135,9 @@
     drawio
     toybox
     wayland-utils
+    dmidecode
+    gimp-with-plugins
+    glava
   ];
   environment.shells = with pkgs; [ zsh ];
 
