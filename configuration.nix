@@ -122,7 +122,9 @@
     htop
     gcc
     clang
-    temurin-bin-17
+    jdk17
+    sbt
+    dotty
     graphviz
     rustup
     protege-distribution
