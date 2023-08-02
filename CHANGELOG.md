@@ -1,3 +1,16 @@
+## [1.2.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.1.0...1.2.0) (2023-08-02)
+
+
+### Features
+
+* add dotty, SBT and switch jdk version ([286473b](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/286473b186e31b480dfbee03e4a3e86e85dc95e5))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([97a1544](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/97a1544b6b1dbc969c4d5dca0edd87f41482fcd9))
+* **deps:** update node.js to 18.17 ([c73d25e](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/c73d25ea8b24a28837d5d2cc01e202c3ac8678d2))
+
 ## [1.1.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.0.0...1.1.0) (2023-07-25)
 
 
