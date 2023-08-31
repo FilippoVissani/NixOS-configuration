@@ -114,6 +114,8 @@
     libsForQt5.plasma-vault
     jetbrains.idea-ultimate
     jetbrains.clion
+    jetbrains.webstorm
+    nodejs_20
     vscode
     unzip
     zip
@@ -140,6 +142,8 @@
     dmidecode
     gimp-with-plugins
     glava
+    postman
+    ruby
   ];
   environment.shells = with pkgs; [ zsh ];
 
