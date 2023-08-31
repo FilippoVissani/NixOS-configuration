@@ -1,3 +1,18 @@
+## [1.3.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.2.0...1.3.0) (2023-08-31)
+
+
+### Features
+
+* add new packages ([d1ab34d](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/d1ab34d4d76bed0e69e669b171e8232b552cef8d))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([8e94735](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/8e947359d1a5a0b4a79eb167a9c3bc00477346b1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([35c386b](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/35c386b23a3f0bcde896b5edca7acee78b56d9cd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([b22caf0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/b22caf0fb736eb8eed735a0ad863df9749284bc6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.48 ([4756294](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/47562947429cf42b539cdddba0530fc36b333129))
+
 ## [1.2.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.1.0...1.2.0) (2023-08-02)
 
 
