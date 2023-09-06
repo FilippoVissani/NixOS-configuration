@@ -1,3 +1,24 @@
+## [1.4.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.3.0...1.4.0) (2023-09-06)
+
+
+### Features
+
+* add automated garbage collection ([edfb56a](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/edfb56a728bb741344cfaba6de7522cb12bf34af))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.49 ([befbc44](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/befbc442804a4da985b45b8339b392e5a338c903))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.50 ([622c5b1](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/622c5b1e9afed81a72c92c10b8721f0510e9ecb5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.51 ([41fe76c](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/41fe76c3fd4c7934d96ffe6278e85b12b65fa6e1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.52 ([eaa454f](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/eaa454f0cc895a33384855c508d80198b2cc839a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([a667f58](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/a667f580c31ff7ecfe94966c6f1e0ee4b409866b))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([1c69937](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/1c699377db44ac6a23011f7a210e5585aefff1f6))
+
 ## [1.3.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.2.0...1.3.0) (2023-08-31)
 
 
