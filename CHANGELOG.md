@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.4.0...1.5.0) (2023-09-12)
+
+
+### Features
+
+* add Ruby Mine ([5f91641](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/5f91641588d71ad8911e2d65cb398a4790df32e6))
+
 ## [1.4.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.3.0...1.4.0) (2023-09-06)
 
 
