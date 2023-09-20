@@ -1,3 +1,17 @@
+## [1.6.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.5.0...1.6.0) (2023-09-20)
+
+
+### Features
+
+* add darkman and configure home manager ([c37b27b](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/c37b27ba96adc8b3eee646189182efc6f2c1ac0c))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([4700cbf](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/4700cbf4fc9076e6b8a2cb12c6b888d7aaf1140a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([aaf60c0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/aaf60c0b37541b7448a77525f7ce08e729ad3548))
+* **deps:** update node.js to 18.18 ([0aa1613](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/0aa161325fcd2e82d17d0842dacefb100d4ae3c2))
+
 ## [1.5.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.4.0...1.5.0) (2023-09-12)
 
 
