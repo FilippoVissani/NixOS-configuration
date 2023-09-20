@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.6.0...1.7.0) (2023-09-20)
+
+
+### Features
+
+* add zshrc ([bb9ffe8](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/bb9ffe8dfa1fc9e8224e7fa33d1bd413938fdf62))
+
 ## [1.6.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.5.0...1.6.0) (2023-09-20)
 
 
