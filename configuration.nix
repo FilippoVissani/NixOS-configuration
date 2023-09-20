@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      <home-manager/nixos>
     ];
 
   # Bootloader.
@@ -89,12 +90,24 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
+  home-manager.useUserPackages = true;
+  home-manager.useGlobalPkgs = true;
   users.users.filippo = {
     isNormalUser = true;
     description = "Filippo Vissani";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
+    shell = pkgs.zsh;
   };
-  users.defaultUserShell = pkgs.zsh;
+  home-manager.users.filippo = { pkgs, ... }: {
+    home.stateVersion = "23.05";
+    home.packages = [  ];
+    programs.zsh = {
+      enable = true;
+      initExtra = ''
+        . ~/zshrc
+      '';
+    };
+  };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -126,6 +139,7 @@
     gcc
     clang
     jdk17
+    gradle
     sbt
     dotty
     graphviz
@@ -145,6 +159,8 @@
     glava
     postman
     ruby
+    darkman
+    geoclue2
   ];
   environment.shells = with pkgs; [ zsh ];
 
