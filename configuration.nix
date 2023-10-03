@@ -107,7 +107,7 @@
         . ~/zshrc
       '';
     };
-  };
+  };  
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -161,6 +161,7 @@
     ruby
     darkman
     geoclue2
+    qbittorrent
   ];
   environment.shells = with pkgs; [ zsh ];
 
