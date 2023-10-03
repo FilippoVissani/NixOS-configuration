@@ -1,3 +1,23 @@
+## [1.8.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.7.0...1.8.0) (2023-10-03)
+
+
+### Features
+
+* add qbittorrent ([c2bedf6](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/c2bedf6577e0822fc8a23487296061dec0e7a35a))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.56 ([a309685](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/a309685c47d1b43f35715cae61c6b3d3145d6f87))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.58 ([dcdbc2a](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/dcdbc2a5a6a69bfd8f066a291a68b6130ee3d195))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.59 ([d3bfb54](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/d3bfb543165b3deb6a705353ce98a34a44b14be6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([808fb44](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/808fb4472255ae59cc2e8628779cdf28cd1cad27))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([7ddaa46](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/7ddaa465bfeace95a19d5bb9fd319cd134c414ac))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([58ac2bb](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/58ac2bb8051ad8ff2e9cdca4e751723e09a0536a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([29f4b4c](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/29f4b4cba54d74a835f58f94b7b202184448f8e3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([e80e7eb](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/e80e7eb9b169152aca13a6c37362f2665db2c555))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([cf1d2f5](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/cf1d2f598eb59ea93d6351a552aeaca8c37f78bc))
+
 ## [1.7.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.6.0...1.7.0) (2023-09-20)
 
 
