@@ -162,6 +162,9 @@
     darkman
     geoclue2
     qbittorrent
+    obs-studio
+    vlc
+    libsForQt5.kdenlive
   ];
   environment.shells = with pkgs; [ zsh ];
 
