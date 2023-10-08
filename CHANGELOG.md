@@ -1,3 +1,16 @@
+## [1.9.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.8.0...1.9.0) (2023-10-08)
+
+
+### Features
+
+* Add OBS, VLC and Kdenlive ([370ee2d](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/370ee2db4278cc351a4be386dd89ca7c35f9c3b6))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([fc72f3e](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/fc72f3e92005647ca776f444816c3b525967895f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([a0818f8](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/a0818f85293b7f3d0c12aa535468751e331646ec))
+
 ## [1.8.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.7.0...1.8.0) (2023-10-03)
 
 
