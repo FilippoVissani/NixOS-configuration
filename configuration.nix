@@ -69,6 +69,33 @@
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
+  # Enable restic for backups
+  services.restic.backups = {
+    remotebackup = {
+      user = "filippo";
+      passwordFile = "/etc/nixos/secrets/restic-password";
+      paths = [
+        "/home/filippo/.config"
+        "/home/filippo/Documents"
+        "/home/filippo/Pictures"
+        "/home/filippo/.zsh_history"
+        "/home/filippo/darkman.sh"
+        "/home/filippo/zshrc"
+        "/home/filippo/.gitconfig"
+      ];
+      repository = "sftp:filippo@192.168.1.5:/srv/dev-disk-by-uuid-4de23f15-f47e-4415-955b-0bc0d525c2ce/VOLUME1/restic-repo";
+      timerConfig = {
+        OnCalendar = "daily";
+        Persistent = true;
+      };
+      pruneOpts = [
+          "--keep-daily 7"
+          "--keep-weekly 5"
+          "--keep-monthly 12"
+      ];
+    };
+  };
+
   # Enable sound with pipewire.
   sound.enable = true;
   hardware.pulseaudio.enable = false;
@@ -129,6 +156,7 @@
     jetbrains.clion
     jetbrains.webstorm
     jetbrains.ruby-mine
+    jetbrains.jdk
     nodejs_20
     vscode
     unzip
@@ -144,7 +172,6 @@
     dotty
     graphviz
     rustup
-    protege-distribution
     firefox
     kate
     thunderbird
@@ -157,7 +184,6 @@
     dmidecode
     gimp-with-plugins
     glava
-    postman
     ruby
     darkman
     geoclue2
@@ -165,6 +191,7 @@
     obs-studio
     vlc
     libsForQt5.kdenlive
+    restic
   ];
   environment.shells = with pkgs; [ zsh ];
 
