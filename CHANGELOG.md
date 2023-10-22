@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.9.0...1.10.0) (2023-10-22)
+
+
+### Features
+
+* configure restic backup service ([1ad0c21](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/1ad0c21a9ae2e60a0fec8f8750b53909fd604517))
+
 ## [1.9.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.8.0...1.9.0) (2023-10-08)
 
 
