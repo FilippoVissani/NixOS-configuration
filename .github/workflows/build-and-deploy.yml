@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: cachix/install-nix-action@v23
-    - name: Format Nix files
+    - name: Validate Nix files
       run: |
         nix-instantiate --parse ./hp-15s-eq2004nl-configuration/*.nix
         nix-instantiate --parse ./shells/*.nix
