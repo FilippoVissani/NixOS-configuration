@@ -14,8 +14,8 @@ jobs:
     - uses: cachix/install-nix-action@v22
     - name: Format Nix files
       run: |
-        nix-shell -p nixfmt --run "nixfmt hp-15s-eq2004nl-configuration/*.nix"
-        nix-shell -p nixfmt --run "nixfmt shells/*.nix"
+        nix-instantiate --parse ./hp-15s-eq2004nl-configuration/*.nix
+        nix-instantiate --parse ./shells/*.nix
 
   release:
     needs:
