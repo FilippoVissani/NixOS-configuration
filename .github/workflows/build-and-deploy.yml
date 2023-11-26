@@ -12,12 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: cachix/install-nix-action@v22
-    - uses: workflow/nix-shell-action@v3
-      with:
-        packages: nixfmt
-        script: |
-          nixfmt hp-15s-eq2004nl-configuration/*.nix
-          nixfmt shells/*.nix
+    - name: Format Nix files
+      run: |
+        nix-shell -p nixfmt --run "nixfmt hp-15s-eq2004nl-configuration/*.nix"
+        nix-shell -p nixfmt --run "nixfmt shells/*.nix"
 
   release:
     needs:
