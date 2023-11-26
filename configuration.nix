@@ -158,7 +158,6 @@
     jetbrains.clion
     jetbrains.webstorm
     jetbrains.ruby-mine
-    jetbrains.jdk
     nodejs_20
     vscode
     unzip
