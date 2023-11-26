@@ -32,6 +32,8 @@
     setSocketVariable = true;
   };
 
+  virtualisation.libvirtd.enable = true;
+
   # Set your time zone.
   time.timeZone = "Europe/Rome";
 
@@ -122,7 +124,7 @@
   users.users.filippo = {
     isNormalUser = true;
     description = "Filippo Vissani";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "libvirtd" ];
     shell = pkgs.zsh;
   };
   home-manager.users.filippo = { pkgs, ... }: {
@@ -192,7 +194,12 @@
     vlc
     libsForQt5.kdenlive
     restic
+    virt-manager
+    libreoffice-qt
+    hunspell
+    hunspellDicts.it_IT
   ];
+
   environment.shells = with pkgs; [ zsh ];
 
   fonts.fonts = with pkgs; [
