@@ -1,3 +1,27 @@
+## [1.11.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.10.0...1.11.0) (2023-11-26)
+
+
+### Features
+
+* add virt-manager and libreoffice ([98139a1](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/98139a10f45e3a80c00b148719139e9179c8edc6))
+* remove jetbrains.jdk ([7a8f3fa](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/7a8f3fa7cbe3c90c741e78537284658328284464))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([f9ef139](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/f9ef13977c2d4cbef267f2b2bba7ff829b4b7865))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([824f045](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/824f045deea510ae5f71fdbe3c55797be981c363))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.71 ([a7e9367](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/a7e936763e16a855cd08782bf3653da82d1ac0f0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.72 ([2db89cf](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/2db89cf37c4bca0bee5ad07bbd9b0a5af348c84c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.74 ([0de6a1b](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/0de6a1ba093a46bb78a3afe314ddc6d541b8fba8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([47670ca](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/47670cab7718f0102deacf8ac3bf5ecd7c6ac0b3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([41fc06a](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/41fc06af120f5042fb4250e408df99f3f3c22f2e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([ac3a00a](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/ac3a00aad38a3712f383f0e0bd525bb3541bf2da))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([b1b8676](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/b1b86764ddb6bbe304199b6e405e507b51f394ad))
+* **deps:** update node.js to 20.10 ([a8d8eb3](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/a8d8eb3103bb295686737a4647a814fb8b5d06c2))
+* **deps:** update node.js to 20.9 ([75e7c8d](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/75e7c8d292423335cf0b5b5631e013801b31ddc6))
+* **deps:** update node.js to v20 ([ad86cf3](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/ad86cf350273bcdb29645b9ba65b643d1fb251fb))
+
 ## [1.10.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.9.0...1.10.0) (2023-10-22)
 
 
