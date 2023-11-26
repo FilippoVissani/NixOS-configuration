@@ -1,3 +1,20 @@
+## [2.0.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.11.0...2.0.0) (2023-11-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* move hp-15s-eq2004nl configuration in dedicated directory
+
+### Features
+
+* add script for checking updates ([54b2776](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/54b2776a788cddeffc074439de295f45cd892b1a))
+* add shell for Idea with JDK17 ([dfe1908](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/dfe19082af1f0fa4b3b9df72a578e326362c931d))
+
+
+### Refactoring
+
+* move hp-15s-eq2004nl configuration in dedicated directory ([bd936fd](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/commit/bd936fdc557de4e2e53cfc3a66a10fda7ae25562))
+
 ## [1.11.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.10.0...1.11.0) (2023-11-26)
 
 
