@@ -1,3 +1,25 @@
+## [2.1.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.0.0...2.1.0) (2023-11-27)
+
+
+### Features
+
+* change shell name ([84e3e84](https://github.com/FilippoVissani/NixOS-configuration/commit/84e3e842f5c9a8994a7021e8471a33b3253fead4))
+
+
+### Build and continuous integration
+
+* add nixfmt ([b3d6d14](https://github.com/FilippoVissani/NixOS-configuration/commit/b3d6d14eee9c1031306dd0ea85ab3b81126fbe5d))
+* add validator ([21dbb1a](https://github.com/FilippoVissani/NixOS-configuration/commit/21dbb1aa6f1e31af2150f2618f678768a46f195e))
+* change job name ([76ba7a9](https://github.com/FilippoVissani/NixOS-configuration/commit/76ba7a9c1c2ea57041bb7df05e63df8e2ae3bbc5))
+* **deps:** update cachix/install-nix-action action to v23 ([1c75ca5](https://github.com/FilippoVissani/NixOS-configuration/commit/1c75ca587c42de0bff5eb32ecdc9ab1d4e2f18aa))
+* fix check over nix files ([be7bfc1](https://github.com/FilippoVissani/NixOS-configuration/commit/be7bfc16c7847fa708e1fb818c742b171b88cbbb))
+* remove formatter ([56bb7ec](https://github.com/FilippoVissani/NixOS-configuration/commit/56bb7ec19c2c4df4e747c24c01c897a4bfd3a749))
+
+
+### General maintenance
+
+* update README ([28c0d15](https://github.com/FilippoVissani/NixOS-configuration/commit/28c0d1513f8001d09335ceeef5d682458c7ae8fd))
+
 ## [2.0.0](https://github.com/FilippoVissani/NixOS-configuration-hp-15s-eq2004nl/compare/1.11.0...2.0.0) (2023-11-26)
 
 
