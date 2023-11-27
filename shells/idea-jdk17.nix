@@ -5,7 +5,7 @@
 (
 	pkgs.buildFHSUserEnv
 	{
-		name = "foo";
+		name = "idea-ultimate with jdk17";
 		targetPkgs = pkgs:
 		[
 			pkgs.jetbrains.idea-ultimate
