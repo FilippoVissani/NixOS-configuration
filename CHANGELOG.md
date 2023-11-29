@@ -1,3 +1,15 @@
+## [2.2.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.1.0...2.2.0) (2023-11-29)
+
+
+### Features
+
+* configure bluetooth ([af148d9](https://github.com/FilippoVissani/NixOS-configuration/commit/af148d931ee6af9291abf29e0ce35a5a7fbcaf97))
+
+
+### Bug Fixes
+
+* fix restic timer ([0c13165](https://github.com/FilippoVissani/NixOS-configuration/commit/0c13165be8810767e5729edde9a254a56a3dd13b))
+
 ## [2.1.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.0.0...2.1.0) (2023-11-27)
 
 
