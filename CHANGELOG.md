@@ -1,3 +1,16 @@
+## [2.2.1](https://github.com/FilippoVissani/NixOS-configuration/compare/2.2.0...2.2.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* rename deprecated symbol ([7a5d0f9](https://github.com/FilippoVissani/NixOS-configuration/commit/7a5d0f9ae0a71ab0677ae044b3e88d52ac8b5c35))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([90d4982](https://github.com/FilippoVissani/NixOS-configuration/commit/90d49823467a441737ceecfef5eaffc608626dbb))
+* **deps:** update cachix/install-nix-action action to v24 ([e06d84d](https://github.com/FilippoVissani/NixOS-configuration/commit/e06d84d35d8b1f76e087e1f8ba274dded61f91da))
+
 ## [2.2.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.1.0...2.2.0) (2023-11-29)
 
 
