@@ -33,6 +33,9 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_ACCESS_TOKEN }}
       - uses: cachix/install-nix-action@v25
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.11.0'
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
