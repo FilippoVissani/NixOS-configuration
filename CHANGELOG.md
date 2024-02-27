@@ -1,3 +1,33 @@
+## [2.3.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.2.1...2.3.0) (2024-02-27)
+
+
+### Features
+
+* add new programs ([8ec5fc8](https://github.com/FilippoVissani/NixOS-configuration/commit/8ec5fc8d8d36d3ec09455b00fcc7c91522684888))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([5c398fd](https://github.com/FilippoVissani/NixOS-configuration/commit/5c398fd4b8e73f4dd521a5e733ca3211dd42575f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([b0724ce](https://github.com/FilippoVissani/NixOS-configuration/commit/b0724ce7dfe8c005a69261f69381185a26c39a8d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([4d9072d](https://github.com/FilippoVissani/NixOS-configuration/commit/4d9072d3999f1929f59efa15428744f65eb2b282))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([91b1988](https://github.com/FilippoVissani/NixOS-configuration/commit/91b19889853c340eacf6b9c81aa987c2bc9d6ff3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([b53fe92](https://github.com/FilippoVissani/NixOS-configuration/commit/b53fe92ec08ca6ff64bbc665fb7ebcc05639c3d1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([857818a](https://github.com/FilippoVissani/NixOS-configuration/commit/857818acfab4410e52653bfcfcc6208ceb2cf54f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([e17ba3d](https://github.com/FilippoVissani/NixOS-configuration/commit/e17ba3d6d17ecc4960460e2d3e31892ab2f59128))
+* **deps:** update node.js to 20.11 ([7bba811](https://github.com/FilippoVissani/NixOS-configuration/commit/7bba8116822407f4980b9ede31293734d6d54e42))
+
+
+### Build and continuous integration
+
+* **deps:** update cachix/install-nix-action action to v25 ([0b64916](https://github.com/FilippoVissani/NixOS-configuration/commit/0b64916ced9333c9b13be7ac70362cf8d3eac5a6))
+* fix release job ([8bcb2dd](https://github.com/FilippoVissani/NixOS-configuration/commit/8bcb2dd11aa4da2cbcda9c5d29bc5eeb2ad41de2))
+
+
+### Refactoring
+
+* change restic configuration ([91c52b1](https://github.com/FilippoVissani/NixOS-configuration/commit/91c52b1bf39093521760f8876702ace5ca419ba3))
+
 ## [2.2.1](https://github.com/FilippoVissani/NixOS-configuration/compare/2.2.0...2.2.1) (2023-12-01)
 
 
