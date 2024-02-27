@@ -81,11 +81,10 @@
         "/home/filippo/Documents"
         "/home/filippo/Pictures"
         "/home/filippo/.zsh_history"
-        "/home/filippo/darkman.sh"
         "/home/filippo/zshrc"
         "/home/filippo/.gitconfig"
       ];
-      repository = "sftp:filippo@192.168.1.5:/srv/dev-disk-by-uuid-4de23f15-f47e-4415-955b-0bc0d525c2ce/VOLUME1/restic-repo";
+      repository = "sftp:filippo@192.168.1.101:/mnt/volume1/VOLUME1/restic-repo";
       timerConfig = {
         OnCalendar = "13:00";
         Persistent = true;
