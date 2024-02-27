@@ -158,9 +158,6 @@
     bitwarden
     libsForQt5.plasma-vault
     jetbrains.idea-ultimate
-    jetbrains.clion
-    jetbrains.webstorm
-    jetbrains.ruby-mine
     nodejs_20
     vscode
     unzip
@@ -200,6 +197,12 @@
     libreoffice-qt
     hunspell
     hunspellDicts.it_IT
+    calibre
+    partition-manager
+    libsForQt5.filelight
+    kodi-wayland
+    inkscape
+    batik
   ];
 
   environment.shells = with pkgs; [ zsh ];
@@ -220,6 +223,7 @@
   # started in user sessions.
   # programs.mtr.enable = true;
   programs.zsh.enable = true;
+  programs.partition-manager.enable = true;
   programs.gnupg.agent = {                                                      
     enable = true;
     enableSSHSupport = true;
