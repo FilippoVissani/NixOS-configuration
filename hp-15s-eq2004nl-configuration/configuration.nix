@@ -203,6 +203,7 @@
     kodi-wayland
     inkscape
     batik
+    chromium
   ];
 
   environment.shells = with pkgs; [ zsh ];
