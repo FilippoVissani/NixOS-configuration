@@ -1,3 +1,15 @@
+## [2.4.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.3.0...2.4.0) (2024-03-15)
+
+
+### Features
+
+* add chromium ([f3c392b](https://github.com/FilippoVissani/NixOS-configuration/commit/f3c392b2879f6daeb7131ca2bd3adbb8f75bcab8))
+
+
+### Build and continuous integration
+
+* **deps:** update cachix/install-nix-action action to v26 ([35c35b2](https://github.com/FilippoVissani/NixOS-configuration/commit/35c35b2abd9224d270410f14e74e7d3f98b438b2))
+
 ## [2.3.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.2.1...2.3.0) (2024-02-27)
 
 
