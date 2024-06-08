@@ -56,16 +56,16 @@
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
-  services.xserver.displayManager.defaultSession = "plasmawayland";
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
+  services.displayManager.defaultSession = "plasma";
   services.fwupd.enable = true;
   
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
+    xkb.layout = "us";
+    xkb.variant = "";
   };
 
   # Enable CUPS to print documents.
@@ -131,7 +131,7 @@
     shell = pkgs.zsh;
   };
   home-manager.users.filippo = { pkgs, ... }: {
-    home.stateVersion = "23.05";
+    home.stateVersion = "24.05";
     home.packages = [  ];
     programs.zsh = {
       enable = true;
@@ -204,6 +204,7 @@
     inkscape
     batik
     chromium
+    retroarchFull
   ];
 
   environment.shells = with pkgs; [ zsh ];
@@ -228,7 +229,6 @@
   programs.gnupg.agent = {                                                      
     enable = true;
     enableSSHSupport = true;
-    pinentryFlavor = "qt";
   };
 
   # List services that you want to enable:
