@@ -4,8 +4,7 @@ git push --force origin \${nextRelease.version} || exit 2
 `
 const config = {
   branches: ["main"],
-};
-config.plugins.push(
+  plugins: [
     ["@semantic-release/exec", {
         "publishCmd": publishCommands,
     }],
@@ -20,5 +19,6 @@ config.plugins.push(
         "assets": ["CHANGELOG.md", "package.json"],
         "message": "chore(release)!: [skip ci] ${nextRelease.version} released"
     }],
-)
+  ]
+};
 module.exports = config
