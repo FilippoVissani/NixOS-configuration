@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "20.18"
+    "node": "22.11"
   },
   "devDependencies": {
     "@semantic-release/exec": "^6.0.3",
