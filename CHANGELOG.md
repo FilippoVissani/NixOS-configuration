@@ -1,3 +1,35 @@
+## [3.0.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.4.0...3.0.0) (2024-12-05)
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to NixOS 24.05
+
+### Features
+
+* upgrade to NixOS 24.05 ([3dde3da](https://github.com/FilippoVissani/NixOS-configuration/commit/3dde3da9ed37c4d271b88b07e1fe44ff288d1f37))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.115 ([09a6d97](https://github.com/FilippoVissani/NixOS-configuration/commit/09a6d97707852fd2d7249be40a704d291f545e97))
+* **deps:** update node.js to 20.12 ([3631718](https://github.com/FilippoVissani/NixOS-configuration/commit/363171882f90861b3834d13cb03732ce17c29516))
+* **deps:** update node.js to 20.13 ([331f6c7](https://github.com/FilippoVissani/NixOS-configuration/commit/331f6c7ae439ef58137ecea08a8aa4be6f7dee3e))
+* **deps:** update node.js to 20.14 ([7a1e3c4](https://github.com/FilippoVissani/NixOS-configuration/commit/7a1e3c49bc7eef33c8411aefad16eac591306764))
+* **deps:** update node.js to 20.15 ([893cf44](https://github.com/FilippoVissani/NixOS-configuration/commit/893cf444d739c3d56910af0613ed0d0b04225d00))
+* **deps:** update node.js to 20.16 ([cc9f279](https://github.com/FilippoVissani/NixOS-configuration/commit/cc9f279fe0e377c3aa13f5280820da8f52b6c3b6))
+* **deps:** update node.js to 20.17 ([61f690c](https://github.com/FilippoVissani/NixOS-configuration/commit/61f690c75166e1f4d5741514646cf2efa8a9ee33))
+* **deps:** update node.js to 20.18 ([bef71a5](https://github.com/FilippoVissani/NixOS-configuration/commit/bef71a5d440d7bdf71c5b5257aa8acf38ba73b3f))
+* **deps:** update node.js to 22.12 ([#70](https://github.com/FilippoVissani/NixOS-configuration/issues/70)) ([41927ee](https://github.com/FilippoVissani/NixOS-configuration/commit/41927eeba7743d340c801345d279566afca00606))
+* **deps:** update node.js to v22 ([b977b35](https://github.com/FilippoVissani/NixOS-configuration/commit/b977b350f5b8362c4fe441292f21e8e96d309545))
+
+### Build and continuous integration
+
+* add release dry run ([7cf8e43](https://github.com/FilippoVissani/NixOS-configuration/commit/7cf8e43709ff49b1a1e9542f91113d29ff85ff84))
+* add vanilla conventional commits ([070b73e](https://github.com/FilippoVissani/NixOS-configuration/commit/070b73e97857e302a2387e346ef47634b51e7f6e))
+* **deps:** update cachix/install-nix-action action to v27 ([0e9fbf2](https://github.com/FilippoVissani/NixOS-configuration/commit/0e9fbf21baf3b8ee3a9e0fd8142bf88db6a52d79))
+* **deps:** update cachix/install-nix-action action to v29 ([c50c557](https://github.com/FilippoVissani/NixOS-configuration/commit/c50c557488573446832408c7f3dd611c093df3be))
+* **deps:** update cachix/install-nix-action action to v30 ([f3165e2](https://github.com/FilippoVissani/NixOS-configuration/commit/f3165e2957cd07f1875063a922ea14269b9305de))
+* restore previous pipeline ([accb4d2](https://github.com/FilippoVissani/NixOS-configuration/commit/accb4d2e9bd979067f569d437a3912f234e8872e))
+
 ## [2.4.0](https://github.com/FilippoVissani/NixOS-configuration/compare/2.3.0...2.4.0) (2024-03-15)
 
 
