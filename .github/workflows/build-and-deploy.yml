@@ -33,7 +33,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_ACCESS_TOKEN }}
       - uses: cachix/install-nix-action@v31
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: '22.19.0'
       - name: Release
