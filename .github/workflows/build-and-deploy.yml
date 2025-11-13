@@ -35,7 +35,7 @@ jobs:
       - uses: cachix/install-nix-action@v31
       - uses: actions/setup-node@v6
         with:
-          node-version: '24.11.0'
+          node-version: '24.11.1'
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
