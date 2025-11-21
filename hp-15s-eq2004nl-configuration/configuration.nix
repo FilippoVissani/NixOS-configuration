@@ -97,9 +97,7 @@
     };
   };
 
-  # Enable sound with pipewire.
-  sound.enable = true;
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -135,7 +133,7 @@
     home.packages = [  ];
     programs.zsh = {
       enable = true;
-      initExtra = ''
+      initContent = ''
         . ~/zshrc
       '';
     };
@@ -156,8 +154,7 @@
     google-chrome
     neofetch
     bitwarden
-    libsForQt5.plasma-vault
-    jetbrains.idea-ultimate
+    kdePackages.plasma-vault
     nodejs_20
     vscode
     unzip
@@ -174,7 +171,7 @@
     graphviz
     rustup
     firefox
-    kate
+    kdePackages.kate
     thunderbird
     texlive.combined.scheme-full
     gh
@@ -188,7 +185,6 @@
     ruby
     darkman
     geoclue2
-    qbittorrent
     obs-studio
     vlc
     libsForQt5.kdenlive
@@ -198,20 +194,22 @@
     hunspell
     hunspellDicts.it_IT
     calibre
-    partition-manager
+    kdePackages.partitionmanager
     libsForQt5.filelight
     kodi-wayland
     inkscape
     batik
     chromium
     retroarchFull
+    protonvpn-gui
+    libsForQt5.kdeconnect-kde
   ];
 
   environment.shells = with pkgs; [ zsh ];
 
   fonts.packages = with pkgs; [
     noto-fonts
-    noto-fonts-cjk
+    noto-fonts-cjk-sans
     noto-fonts-emoji
     liberation_ttf
     fira-code
