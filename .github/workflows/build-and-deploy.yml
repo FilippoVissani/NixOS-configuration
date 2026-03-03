@@ -6,9 +6,6 @@ on:
   workflow_call:
   workflow_dispatch:
 
-env:
-  GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
-
 jobs:
   check:
     runs-on: ubuntu-latest
