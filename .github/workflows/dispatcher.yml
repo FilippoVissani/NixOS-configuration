@@ -1,4 +1,7 @@
 name: CI/CD
+
+permissions: write-all
+
 on:
   push:
     # Disables the branch builds for some branches,

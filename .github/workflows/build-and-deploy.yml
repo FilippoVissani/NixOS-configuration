@@ -1,4 +1,7 @@
 name: CI/CD Process
+
+permissions: write-all
+
 on:
   workflow_call:
   workflow_dispatch:
@@ -37,7 +40,7 @@ jobs:
           node-version: '24.14.0'
       - name: Release
         env:
-          GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm install
